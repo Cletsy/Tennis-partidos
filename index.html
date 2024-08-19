@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historial de Partidos de Tennis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .player {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .player img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .vs {
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .summary {
+            margin-top: 30px;
+            font-size: 18px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Historial de Partidos de Tennis</h1>
+    <table id="matchesTable">
+        <thead>
+            <tr>
+                <th>Fecha</th>
+                <th>Jugador 1</th>
+                <th></th>
+                <th>Jugador 2</th>
+                <th>Ganador</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>01-06-2024</td>
+                <td class="player">
+                    <img src="gustavo.jpg" alt="Foto de Gustavo">
+                    Pereiro Gustavo
+                </td>
+                <td class="vs">VS</td>
+                <td class="player">
+                    <img src="jeronimo.jpg" alt="Foto de Jerónimo">
+                    Jerónimo Vons
+                </td>
+                <td>Pereiro Gustavo</td>
+            </tr>
+            <tr>
+                <td>07-06-2024</td>
+                <td class="player">
+                    <img src="gustavo.jpg" alt="Foto de Gustavo">
+                    Pereiro Gustavo
+                </td>
+                <td class="vs">VS</td>
+                <td class="player">
+                    <img src="jeronimo.jpg" alt="Foto de Jerónimo">
+                    Jerónimo Vons
+                </td>
+                <td>Pereiro Gustavo</td>
+            </tr>
+            <tr>
+                <td>14-06-2024</td>
+                <td class="player">
+                    <img src="gustavo.jpg" alt="Foto de Gustavo">
+                    Pereiro Gustavo
+                </td>
+                <td class="vs">VS</td>
+                <td class="player">
+                    <img src="jeronimo.jpg" alt="Foto de Jerónimo">
+                    Jerónimo Vons
+                </td>
+                <td>Pereiro Gustavo</td>
+            </tr>
+            <tr>
+                <td>17-06-2024</td>
+                <td class="player">
+                    <img src="gustavo.jpg" alt="Foto de Gustavo">
+                    Pereiro Gustavo
+                </td>
+                <td class="vs">VS</td>
+                <td class="player">
+                    <img src="jeronimo.jpg" alt="Foto de Jerónimo">
+                    Jerónimo Vons
+                </td>
+                <td>Pereiro Gustavo</td>
+            </tr>
+            <tr>
+                <td>28-06-2024</td>
+                <td class="player">
+                    <img src="gustavo.jpg" alt="Foto de Gustavo">
+                    Pereiro Gustavo
+                </td>
+                <td class="vs">VS</td>
+                <td class="player">
+                    <img src="jeronimo.jpg" alt="Foto de Jerónimo">
+                    Jerónimo Vons
+                </td>
+                <td>Pereiro Gustavo</td>
+            </tr>
+            <tr>
+                <td>05-07-2024</td>
+                <td class="player">
+                    <img src="gustavo.jpg" alt="Foto de Gustavo">
+                    Pereiro Gustavo
+                </td>
+                <td class="vs">VS</td>
+                <td class="player">
+                    <img src="jeronimo.jpg" alt="Foto de Jerónimo">
+                    Jerónimo Vons
+                </td>
+                <td>Pereiro Gustavo</td>
+            </tr>
+            <tr>
+                <td>12-07-2024</td>
+                <td class="player">
+                    <img src="gustavo.jpg" alt="Foto de Gustavo">
+                    Pereiro Gustavo
+                </td>
+                <td class="vs">VS</td>
+                <td class="player">
+                    <img src="jeronimo.jpg" alt="Foto de Jerónimo">
+                    Jerónimo Vons
+                </td>
+                <td>Pereiro Gustavo</td>
+            </tr>
+            <tr>
+                <td>20-07-2024</td>
+                <td class="player">
+                    <img src="gustavo.jpg" alt="Foto de Gustavo">
+                    Pereiro Gustavo
+                </td>
+                <td class="vs">VS</td>
+                <td class="player">
+                    <img src="jeronimo.jpg" alt="Foto de Jerónimo">
+                    Jerónimo Vons
+                </td>
+                <td>Pereiro Gustavo</td>
+            </tr>
+            <tr>
+                <td>26-07-2024</td>
+                <td class="player">
+                    <img src="gustavo.jpg" alt="Foto de Gustavo">
+                    Pereiro Gustavo
+                </td>
+                <td class="vs">VS</td>
+                <td class="player">
+                    <img src="jeronimo.jpg" alt="Foto de Jerónimo">
+                    Jerónimo Vons
+                </td>
+                <td>Pereiro Gustavo</td>
+            </tr>
+            <tr>
+                <td>02-08-2024</td>
+                <td class="player">
+                    <img src="gustavo.jpg" alt="Foto de Gustavo">
+                    Pereiro Gustavo
+                </td>
+                <td class="vs">VS</td>
+                <td class="player">
+                    <img src="jeronimo.jpg" alt="Foto de Jerónimo">
+                    Jerónimo Vons
+                </td>
+                <td>Pereiro Gustavo</td>
+            </tr>
+            <tr>
+                <td>04-08-2024</td>
+                <td class="player">
+                    <img src="gustavo.jpg" alt="Foto de Gustavo">
+                    Pereiro Gustavo
+                </td>
+                <td class="vs">VS</td>
+                <td class="player">
+                    <img src="jeronimo.jpg" alt="Foto de Jerónimo">
+                    Jerónimo Vons
+                </td>
+                <td>Pereiro Gustavo</td>
+            </tr>
+            <tr>
+                <td>09-08-2024</td>
+                <td class="player">
+                    <img src="gustavo.jpg" alt="Foto de Gustavo">
+                    Pereiro Gustavo
+                </td>
+                <td class="vs">VS</td>
+                <td class="player">
+                    <img src="jeronimo.jpg" alt="Foto de Jerónimo">
+                    Jerónimo Vons
+                </td>
+                <td>Pereiro Gustavo</td>
+            </tr>
+            <tr>
+                <td>16-08-2024</td>
+                <td class="player">
+                    <img src="gustavo.jpg" alt="Foto de Gustavo">
+                    Pereiro Gustavo
+                </td>
+                <td class="vs">VS</td>
+                <td class="player">
+                    <img src="jeronimo.jpg" alt="Foto de Jerónimo">
+                    Jerónimo Vons
+                </td>
+                <td>Pereiro Gustavo</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="summary" id="summary">
+        <!-- Aquí se mostrará el resumen de partidos jugados y ganados -->
+    </div>
+
+    <script>
+        // Obtener las filas de la tabla
+        const rows = document.querySelectorAll('#matchesTable tbody tr');
+
+        let totalMatches = 0;
+        let gustavoWins = 0;
+        let jeronimoWins = 0;
+
+        // Contar los partidos jugados y ganados por cada jugador
+        rows.forEach(row => {
+            const winner = row.cells[4].textContent;
+            totalMatches++;
+
+            if (winner === "Pereiro Gustavo") {
+                gustavoWins++;
+            } else if (winner === "Jerónimo Vons") {
+                jeronimoWins++;
+            }
+        });
+
+        // Mostrar el resumen
+        const summaryDiv = document.getElementById('summary');
+        summaryDiv.innerHTML = `
+            <p>Total de partidos jugados: ${totalMatches}</p>
+            <p>Pereiro Gustavo ganó: ${gustavoWins} partido(s)</p>
+            <p>Jerónimo Vons ganó: ${jeronimoWins} partido(s)</p>
+        `;
+    </script>
+</body>
+</html>
